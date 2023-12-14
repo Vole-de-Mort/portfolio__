@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+}
+body, .box{
+    background-image: url(bg3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    height: 80vh;
+    width: 70vh;
+    border-radius: 40px;
+    border-style: outset;
+    box-shadow: 5px 10px 8px 10px #4d13aa;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+h2,iframe{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-left: 5%;
+
+}
+iframe{
+    border-radius: 20px;
+    border: none;
+    height: 70%;
+    width: 90%;
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+span{
+    color: red;
+}
+img{
+   position: absolute;
+   top: 0;
+   right: 0; 
+}

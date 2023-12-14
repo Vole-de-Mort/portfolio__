@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #7100da5b;
+        margin: 0;
+        padding: 0;
+    }
+    .loginbox{
+        position: absolute;
+        height: 80vh;
+        width: 70%;
+        top: 10%;
+        bottom: 10%;
+        left: 15%;
+        right: 15%;
+    }
+    .adresse, .mtp, .btn, .klem{
+        
+        display: flex;
+        justify-content: center;
+        padding: 8%;
+    }
+    input{
+        box-shadow: 4px 8px 6px 8px #1c0b36;
+        border-radius: 30px;
+        background: none;
+        height: 30px;
+        width: 100%;
+        font-size: 22px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .btn input{
+        cursor: pointer;
+    }
+    p{
+        font-size: 20px;
+    }
+    p a{
+        text-decoration: none;
+        color: red;
+    }
+</style>
+<body>
+    <div class="loginbox">
+        <form action="" method="post">
+            <div class="adresse">
+                <input type="email" required >
+            </div>
+            <div class="mtp">
+                <input type="password"required>
+            </div>
+            <div class="btn">
+                <input type="button" value="Log In">
+                <input type="reset" value="Dump">
+            </div>
+            <div class="klem">
+                <p><a href="#">Forget password ?</a><br>
+                Don't have an account !! <a href="singup.html" target="x">Creat one</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
